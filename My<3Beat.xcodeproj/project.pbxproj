@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE40DD9924BE043B000F8D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DD9824BE043B000F8D7A /* AppDelegate.swift */; };
+		FE40DD9B24BE043B000F8D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DD9A24BE043B000F8D7A /* SceneDelegate.swift */; };
+		FE40DD9D24BE043B000F8D7A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DD9C24BE043B000F8D7A /* ProfileViewController.swift */; };
+		FE40DD9F24BE043B000F8D7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DD9E24BE043B000F8D7A /* HomeViewController.swift */; };
+		FE40DDA224BE043B000F8D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE40DDA024BE043B000F8D7A /* Main.storyboard */; };
+		FE40DDA424BE043D000F8D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE40DDA324BE043D000F8D7A /* Assets.xcassets */; };
+		FE40DDA724BE043D000F8D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE40DDA524BE043D000F8D7A /* LaunchScreen.storyboard */; };
+		FE40DDB224BE043D000F8D7A /* My_3BeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DDB124BE043D000F8D7A /* My_3BeatTests.swift */; };
+		FE40DDBD24BE043D000F8D7A /* My_3BeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DDBC24BE043D000F8D7A /* My_3BeatUITests.swift */; };
+		FE40DDCB24BE0546000F8D7A /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DDCA24BE0546000F8D7A /* LibraryViewController.swift */; };
+		FE40DDD024BE22DE000F8D7A /* Gotham Rounded Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE40DDCE24BE22DE000F8D7A /* Gotham Rounded Bold.otf */; };
+		FE40DDD424BE22E9000F8D7A /* Gotham Rounded Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE40DDD224BE22E9000F8D7A /* Gotham Rounded Light.otf */; };
+		FE40DDD924BE3B37000F8D7A /* colorExtension .swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DDD824BE3B37000F8D7A /* colorExtension .swift */; };
+		FE40DDDB24BE4737000F8D7A /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40DDDA24BE4737000F8D7A /* colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE40DDAE24BE043D000F8D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE40DD8D24BE043B000F8D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE40DD9424BE043B000F8D7A;
+			remoteInfo = "My<3Beat";
+		};
+		FE40DDB924BE043D000F8D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE40DD8D24BE043B000F8D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE40DD9424BE043B000F8D7A;
+			remoteInfo = "My<3Beat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE40DD9524BE043B000F8D7A /* My<3Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My<3Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE40DD9824BE043B000F8D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE40DD9A24BE043B000F8D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE40DD9C24BE043B000F8D7A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FE40DD9E24BE043B000F8D7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FE40DDA124BE043B000F8D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE40DDA324BE043D000F8D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE40DDA624BE043D000F8D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE40DDA824BE043D000F8D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE40DDAD24BE043D000F8D7A /* My<3BeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My<3BeatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE40DDB124BE043D000F8D7A /* My_3BeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_3BeatTests.swift; sourceTree = "<group>"; };
+		FE40DDB324BE043D000F8D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE40DDB824BE043D000F8D7A /* My<3BeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My<3BeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE40DDBC24BE043D000F8D7A /* My_3BeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_3BeatUITests.swift; sourceTree = "<group>"; };
+		FE40DDBE24BE043D000F8D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE40DDCA24BE0546000F8D7A /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		FE40DDCE24BE22DE000F8D7A /* Gotham Rounded Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Bold.otf"; sourceTree = "<group>"; };
+		FE40DDD224BE22E9000F8D7A /* Gotham Rounded Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Light.otf"; sourceTree = "<group>"; };
+		FE40DDD824BE3B37000F8D7A /* colorExtension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "colorExtension .swift"; sourceTree = "<group>"; };
+		FE40DDDA24BE4737000F8D7A /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE40DD9224BE043B000F8D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE40DDAA24BE043D000F8D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE40DDB524BE043D000F8D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE40DD8C24BE043B000F8D7A = {
+			isa = PBXGroup;
+			children = (
+				FE40DD9724BE043B000F8D7A /* My<3Beat */,
+				FE40DDB024BE043D000F8D7A /* My<3BeatTests */,
+				FE40DDBB24BE043D000F8D7A /* My<3BeatUITests */,
+				FE40DD9624BE043B000F8D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE40DD9624BE043B000F8D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE40DD9524BE043B000F8D7A /* My<3Beat.app */,
+				FE40DDAD24BE043D000F8D7A /* My<3BeatTests.xctest */,
+				FE40DDB824BE043D000F8D7A /* My<3BeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE40DD9724BE043B000F8D7A /* My<3Beat */ = {
+			isa = PBXGroup;
+			children = (
+				FE40DD9824BE043B000F8D7A /* AppDelegate.swift */,
+				FE40DD9A24BE043B000F8D7A /* SceneDelegate.swift */,
+				FE40DD9C24BE043B000F8D7A /* ProfileViewController.swift */,
+				FE40DD9E24BE043B000F8D7A /* HomeViewController.swift */,
+				FE40DDA024BE043B000F8D7A /* Main.storyboard */,
+				FE40DDCC24BE22DE000F8D7A /* Gotham Rounded Bold */,
+				FE40DDA324BE043D000F8D7A /* Assets.xcassets */,
+				FE40DDA524BE043D000F8D7A /* LaunchScreen.storyboard */,
+				FE40DDA824BE043D000F8D7A /* Info.plist */,
+				FE40DDCA24BE0546000F8D7A /* LibraryViewController.swift */,
+				FE40DDD824BE3B37000F8D7A /* colorExtension .swift */,
+				FE40DDDA24BE4737000F8D7A /* colors.swift */,
+			);
+			path = "My<3Beat";
+			sourceTree = "<group>";
+		};
+		FE40DDB024BE043D000F8D7A /* My<3BeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE40DDB124BE043D000F8D7A /* My_3BeatTests.swift */,
+				FE40DDB324BE043D000F8D7A /* Info.plist */,
+			);
+			path = "My<3BeatTests";
+			sourceTree = "<group>";
+		};
+		FE40DDBB24BE043D000F8D7A /* My<3BeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE40DDBC24BE043D000F8D7A /* My_3BeatUITests.swift */,
+				FE40DDBE24BE043D000F8D7A /* Info.plist */,
+			);
+			path = "My<3BeatUITests";
+			sourceTree = "<group>";
+		};
+		FE40DDCC24BE22DE000F8D7A /* Gotham Rounded Bold */ = {
+			isa = PBXGroup;
+			children = (
+				FE40DDD224BE22E9000F8D7A /* Gotham Rounded Light.otf */,
+				FE40DDCE24BE22DE000F8D7A /* Gotham Rounded Bold.otf */,
+			);
+			path = "Gotham Rounded Bold";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE40DD9424BE043B000F8D7A /* My<3Beat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE40DDC124BE043D000F8D7A /* Build configuration list for PBXNativeTarget "My<3Beat" */;
+			buildPhases = (
+				FE40DD9124BE043B000F8D7A /* Sources */,
+				FE40DD9224BE043B000F8D7A /* Frameworks */,
+				FE40DD9324BE043B000F8D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My<3Beat";
+			productName = "My<3Beat";
+			productReference = FE40DD9524BE043B000F8D7A /* My<3Beat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE40DDAC24BE043D000F8D7A /* My<3BeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE40DDC424BE043D000F8D7A /* Build configuration list for PBXNativeTarget "My<3BeatTests" */;
+			buildPhases = (
+				FE40DDA924BE043D000F8D7A /* Sources */,
+				FE40DDAA24BE043D000F8D7A /* Frameworks */,
+				FE40DDAB24BE043D000F8D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE40DDAF24BE043D000F8D7A /* PBXTargetDependency */,
+			);
+			name = "My<3BeatTests";
+			productName = "My<3BeatTests";
+			productReference = FE40DDAD24BE043D000F8D7A /* My<3BeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE40DDB724BE043D000F8D7A /* My<3BeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE40DDC724BE043D000F8D7A /* Build configuration list for PBXNativeTarget "My<3BeatUITests" */;
+			buildPhases = (
+				FE40DDB424BE043D000F8D7A /* Sources */,
+				FE40DDB524BE043D000F8D7A /* Frameworks */,
+				FE40DDB624BE043D000F8D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE40DDBA24BE043D000F8D7A /* PBXTargetDependency */,
+			);
+			name = "My<3BeatUITests";
+			productName = "My<3BeatUITests";
+			productReference = FE40DDB824BE043D000F8D7A /* My<3BeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE40DD8D24BE043B000F8D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nádia Bordoni";
+				TargetAttributes = {
+					FE40DD9424BE043B000F8D7A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FE40DDAC24BE043D000F8D7A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FE40DD9424BE043B000F8D7A;
+					};
+					FE40DDB724BE043D000F8D7A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FE40DD9424BE043B000F8D7A;
+					};
+				};
+			};
+			buildConfigurationList = FE40DD9024BE043B000F8D7A /* Build configuration list for PBXProject "My<3Beat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE40DD8C24BE043B000F8D7A;
+			productRefGroup = FE40DD9624BE043B000F8D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE40DD9424BE043B000F8D7A /* My<3Beat */,
+				FE40DDAC24BE043D000F8D7A /* My<3BeatTests */,
+				FE40DDB724BE043D000F8D7A /* My<3BeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE40DD9324BE043B000F8D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE40DDA724BE043D000F8D7A /* LaunchScreen.storyboard in Resources */,
+				FE40DDA424BE043D000F8D7A /* Assets.xcassets in Resources */,
+				FE40DDA224BE043B000F8D7A /* Main.storyboard in Resources */,
+				FE40DDD424BE22E9000F8D7A /* Gotham Rounded Light.otf in Resources */,
+				FE40DDD024BE22DE000F8D7A /* Gotham Rounded Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE40DDAB24BE043D000F8D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE40DDB624BE043D000F8D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE40DD9124BE043B000F8D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE40DD9F24BE043B000F8D7A /* HomeViewController.swift in Sources */,
+				FE40DDCB24BE0546000F8D7A /* LibraryViewController.swift in Sources */,
+				FE40DDDB24BE4737000F8D7A /* colors.swift in Sources */,
+				FE40DDD924BE3B37000F8D7A /* colorExtension .swift in Sources */,
+				FE40DD9D24BE043B000F8D7A /* ProfileViewController.swift in Sources */,
+				FE40DD9924BE043B000F8D7A /* AppDelegate.swift in Sources */,
+				FE40DD9B24BE043B000F8D7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE40DDA924BE043D000F8D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE40DDB224BE043D000F8D7A /* My_3BeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE40DDB424BE043D000F8D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE40DDBD24BE043D000F8D7A /* My_3BeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE40DDAF24BE043D000F8D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE40DD9424BE043B000F8D7A /* My<3Beat */;
+			targetProxy = FE40DDAE24BE043D000F8D7A /* PBXContainerItemProxy */;
+		};
+		FE40DDBA24BE043D000F8D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE40DD9424BE043B000F8D7A /* My<3Beat */;
+			targetProxy = FE40DDB924BE043D000F8D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE40DDA024BE043B000F8D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE40DDA124BE043B000F8D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE40DDA524BE043D000F8D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE40DDA624BE043D000F8D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE40DDBF24BE043D000F8D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE40DDC024BE043D000F8D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE40DDC224BE043D000F8D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My<3Beat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nadia.My-3Beat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE40DDC324BE043D000F8D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My<3Beat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nadia.My-3Beat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE40DDC524BE043D000F8D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My<3BeatTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nadia.My-3BeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My<3Beat.app/My<3Beat";
+			};
+			name = Debug;
+		};
+		FE40DDC624BE043D000F8D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My<3BeatTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nadia.My-3BeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My<3Beat.app/My<3Beat";
+			};
+			name = Release;
+		};
+		FE40DDC824BE043D000F8D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My<3BeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nadia.My-3BeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My<3Beat";
+			};
+			name = Debug;
+		};
+		FE40DDC924BE043D000F8D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My<3BeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nadia.My-3BeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My<3Beat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE40DD9024BE043B000F8D7A /* Build configuration list for PBXProject "My<3Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40DDBF24BE043D000F8D7A /* Debug */,
+				FE40DDC024BE043D000F8D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE40DDC124BE043D000F8D7A /* Build configuration list for PBXNativeTarget "My<3Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40DDC224BE043D000F8D7A /* Debug */,
+				FE40DDC324BE043D000F8D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE40DDC424BE043D000F8D7A /* Build configuration list for PBXNativeTarget "My<3BeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40DDC524BE043D000F8D7A /* Debug */,
+				FE40DDC624BE043D000F8D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE40DDC724BE043D000F8D7A /* Build configuration list for PBXNativeTarget "My<3BeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE40DDC824BE043D000F8D7A /* Debug */,
+				FE40DDC924BE043D000F8D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE40DD8D24BE043B000F8D7A /* Project object */;
+}
