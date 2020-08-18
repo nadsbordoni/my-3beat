@@ -10,13 +10,19 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-  
+    
+    @IBOutlet var scrollView: UIScrollView!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //.setGradientBackground(colorOne: colors.black, colorTwo: colors.flickrPink)
-     
+        scrollView.setGradientBackground(colorOne: colors.blacktransp, colorTwo: colors.flickrPink)//
+        
+        
     }
-
-
+    
+    
 }
 

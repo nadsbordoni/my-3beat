@@ -61,6 +61,8 @@
 		FE40DDD224BE22E9000F8D7A /* Gotham Rounded Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Rounded Light.otf"; sourceTree = "<group>"; };
 		FE40DDD824BE3B37000F8D7A /* colorExtension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "colorExtension .swift"; sourceTree = "<group>"; };
 		FE40DDDA24BE4737000F8D7A /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		FE77610A24EB32420076D15E /* gotham-rounded-book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-rounded-book.otf"; sourceTree = "<group>"; };
+		FE77610B24EB32420076D15E /* gotham-rounded-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-rounded-medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				FE40DDD224BE22E9000F8D7A /* Gotham Rounded Light.otf */,
+				FE77610A24EB32420076D15E /* gotham-rounded-book.otf */,
+				FE77610B24EB32420076D15E /* gotham-rounded-medium.otf */,
 				FE40DDCE24BE22DE000F8D7A /* Gotham Rounded Bold.otf */,
 			);
 			path = "Gotham Rounded Bold";
